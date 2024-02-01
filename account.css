@@ -1,0 +1,151 @@
+:root {
+  --primary-blue: #405de6;
+  --light-blue: #3a7ee4;
+  --secondary-blue: #5b51d8;
+  --primary-purple: #833ab4;
+  --primary-pink: #c13584;
+  --purple-red: #e1306c;
+  --primary-red: #fd1d1d;
+  --primary-orange: #f56040;
+  --secondary-green: #777737;
+  --primary-yellow: #fcaf45;
+  --light-yellow: #ffdc80;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow: hidden;
+}
+
+hr {
+    width: 100vw;
+}
+
+section {
+    margin: 0 1rem;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 0.5em;
+}
+
+.login-btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--light-blue);
+  border-radius: 10px;
+}
+
+.signup-btn {
+  color: black;
+  text-decoration: none;
+}
+
+.account-header {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+
+.account-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+.account-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+
+.account-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.account-title h4 {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.verified-symbol {
+  height: 25px;
+  width: auto;
+}
+
+.action-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  border: none;
+  padding: 0.5rem 4rem;
+  border-radius: 10px;
+}
+
+.account-description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.description-title {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.description-bio {
+  margin: 0;
+}
+
+.description-link {
+  color: rgb(20, 22, 141);
+}
+
+.highlights {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.highlight-container p {
+  margin: 0;
+}
+
+.highlight-img {
+  background-color: #94bff0;
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+  border: 1px solid rgb(185, 185, 185);
+}
