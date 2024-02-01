@@ -17,7 +17,7 @@ body {
 }
 
 #feedNav{
-    border: honeydew solid 3px;
+    border-bottom: rgba(240, 255, 240, 0.137) solid 2px;
     display: flex;
     justify-content: space-between;
 
@@ -40,4 +40,58 @@ body {
 
 i {
     font-size: 5em;
+}
+
+/*nav done*/
+
+
+
+#mainFeed {
+    height: 73vh;
+    width: 100%;
+}
+
+#posterAcc {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgba(240, 255, 240, 0.137) solid 2px;
+}
+
+.userDiv {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: 2em;
+}
+
+#pfImg {
+    border-radius: 70%;
+    height: 9vh; 
+}
+
+#feedImg{
+    height: 100%;
+}
+
+#post {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    border-bottom: rgba(240, 255, 240, 0.137) solid 2px;
+}
+
+#feedIcons {
+    display: flex;
+    justify-content: space-around;
+    height: 9vh;
+    width: 40%;
+    padding-top: 3vh;
+}
+
+#feedIcons i {
+    font-size: 3em;
 }
