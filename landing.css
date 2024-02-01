@@ -1,0 +1,39 @@
+.logo {
+    display:flex;
+        align-items: center;
+        justify-content: center;
+}
+
+body {
+        font-family: 'Courier New', Courier, monospace;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+button{
+  padding: 10px 15px;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #488cff;
+  color: #fff;
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+}
