@@ -95,3 +95,11 @@ i {
 #feedIcons i {
     font-size: 3em;
 }
+
+.likeHeart:active{
+    color: red;
+}
+
+.likeCount{
+    font-size: 2em;
+}
