@@ -23,6 +23,7 @@
 .logo_panel{
     display: flex;
     justify-content: space-evenly;
+    border-top: 1px solid gray;
     border-bottom: 1px solid grey;
     padding: 10px;
     
