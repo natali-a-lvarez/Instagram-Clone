@@ -1,0 +1,43 @@
+:root {
+    --primary-blue: #405DE6;
+    --secondary-blue: #5B51D8;
+    --primary-purple: #833AB4;
+    --primary-pink: #C13584;
+    --purple-red: #E1306C;
+    --primary-red: #FD1D1D;
+    --primary-orange: #F56040;
+    --secondary-green: #777737;
+    --primary-yellow: #FCAF45;
+    --light-yellow: #FFDC80;
+}
+
+body {
+    background-color: black;
+    color: honeydew;
+}
+
+#feedNav{
+    border: honeydew solid 3px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#feedNavLogo{
+    height: 10vh;
+    width:10vw;
+    margin-left: 3vw;
+}
+
+.navIcons{
+    width: 11vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+i {
+    font-size: 5em;
+}
