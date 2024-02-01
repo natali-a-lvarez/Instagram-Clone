@@ -11,3 +11,39 @@
     --light-yellow: #FFDC80;
 
 }
+
+.numbers_panel{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+
+}
+
+.logo_panel{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    
+}
+
+.page_photos1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.page_photos2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page_photos3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
